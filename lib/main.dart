@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       ),
       home: BlocProvider<CounterCubit>(
         create: (context) => CounterCubit(),
-        child: const MyHomePage(title: 'Flutter Demo Home Page'),
+        child: const MyHomePage(title: 'Flutter Demo Home Pagee'),
       ),
     );
   }
